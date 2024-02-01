@@ -1,0 +1,1 @@
+hacer que la aplicacion de todo sea de un formato y funcionamiento similar a la aplicacion reloj de windows
