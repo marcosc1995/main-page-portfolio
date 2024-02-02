@@ -45,14 +45,14 @@ main {
   }
 }
 section {
-  width: 50%;
+  // width: 90%;
   margin: auto;
-  margin-top: 500px;
-  height: 200px;
+  margin-top: 200px;
+  // height: 200px;
   margin-bottom: 300px;
   border-radius: 10px;
   font-size: 1.5rem;
-  background-color: rgba(17, 34, 64, 0.5);
+  // background-color: rgba(17, 34, 64, 0.5);
 }
 #siteUnderConstruction {
   color: #64ffda;
@@ -157,5 +157,55 @@ section {
       max-width: 700px;
       color: rgba(136, 146, 176, 0.733);
     }
+  }
+}
+#toDoApp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h3{
+    margin-right: 8rem;
+    color: rgb(204, 214, 246);
+    font-weight: 100;
+
+  }
+}
+#toDoShot1{
+  // border: 1px solid red;
+  width: 500px;
+  height: 420px;
+  background-image: url(/img/979shots_so.png);
+  background-position: center;
+  background-size: cover;
+}
+#toDoShot2{
+  // border: 1px solid red;
+  width: 500px;
+  height: 420px;
+  background-image: url(/img/886shots_so.png);
+  background-position: center;
+  background-size: cover;
+}
+#toDoShot3{
+  // border: 1px solid red;
+  width: 700px;
+  height: 620px;
+  background-image: url(/img/950shots_so.png);
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio-description{
+  // border: 1px solid red;
+  margin: 0 50px;
+  h3{
+    color: rgb(204, 214, 246);
+  }
+  p{
+    color: rgba(136, 146, 176, 0.733);
   }
 }
