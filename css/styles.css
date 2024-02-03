@@ -8,6 +8,7 @@ body {
 .icon {
   width: 50px;
   margin: auto;
+  transition-duration: 0.2s;
 }
 
 .icon:hover {
@@ -18,6 +19,9 @@ body {
 main {
   margin: auto;
   width: 90%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 main a {
   text-decoration: none;
@@ -53,6 +57,9 @@ section {
   margin-bottom: 300px;
   border-radius: 10px;
   font-size: 1.5rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 /* rgb(136, 146, 176) */
@@ -78,7 +85,7 @@ section {
 #mask {
   background-color: #0a192f;
   width: 100%;
-  height: 100%;
+  height: 500px;
   position: absolute;
 }
 
