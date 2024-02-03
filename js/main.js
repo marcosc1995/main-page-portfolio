@@ -4,6 +4,10 @@ const site = document.getElementById("siteUnderConstruction");
 const hi = document.getElementById("hi");
 const nameTitle = document.getElementById('nameTitle');
 const title = document.getElementById('title');
+// ToDo sections
+const section1 = document.getElementById('toDoSection1')
+const section2 = document.getElementById('toDoSection2')
+
 
 
 

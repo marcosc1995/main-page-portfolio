@@ -24,7 +24,7 @@ main a {
 }
 main h6 {
   margin: 0;
-  color: rgb(100, 255, 218);
+  color: rgba(136, 146, 176, 0.562);
   font-size: 1rem;
   margin-bottom: 5px;
 }
@@ -55,33 +55,24 @@ section {
   font-size: 1.5rem;
 }
 
-#siteUnderConstruction {
-  color: #64ffda;
-}
-#siteUnderConstruction div {
-  padding: 5px;
-  text-align: center;
-  margin-top: 20px;
-}
-#siteUnderConstruction div img {
-  width: 80px;
-  margin: auto;
-}
-
 /* rgb(136, 146, 176) */
 /* Botones */
 #btnResume {
   width: 10rem;
   font-size: 1.5rem;
   background-color: rgba(0, 255, 255, 0);
-  border: 1px solid rgb(100, 255, 218);
-  color: rgb(100, 255, 218);
   border-radius: 10px;
   margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccd6f6;
+  color: rgb(204, 214, 246);
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
-
 #btnResume:hover {
-  background-color: rgba(0, 255, 255, 0.116);
+  color: #0a192f;
+  background-color: #ccd6f6;
+  scale: 1.1;
 }
 
 #mask {
@@ -96,6 +87,7 @@ section {
   height: 50px;
   margin: auto;
   text-align: center;
+  justify-content: center;
   display: flex;
   align-items: center;
   padding: 20px;
@@ -196,14 +188,17 @@ section {
   justify-content: center;
 }
 #goProject a {
-  background-color: rgb(76, 102, 172);
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
-  color: inherit;
+  border: 1px solid rgb(204, 214, 246);
+  color: rgb(204, 214, 246);
+  transition-duration: 0.2s;
 }
 #goProject a:hover {
-  scale: 1.5;
+  scale: 1.2;
+  color: #0a192f;
+  background-color: #ccd6f6;
 }
 
 @media (min-width: 800px) {
@@ -251,7 +246,7 @@ section {
   }
   main h6 {
     margin: 0;
-    color: rgb(100, 255, 218);
+    color: rgb(136, 146, 176);
     font-size: 1.2rem;
     margin-bottom: 5px;
   }
