@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #0a192f;
+  background-color: #0e0e0e;
   font-family: sans-serif;
 
   padding-top: 250px;
@@ -8,7 +8,7 @@ body {
 .icon {
   width: 50px;
   margin: auto;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 .icon:hover {
   background-color: rgba(0, 255, 255, 0.116);
@@ -19,6 +19,7 @@ main {
   margin: auto;
   width: 90%;
   user-select: none;
+  height: 600px;
   a {
     text-decoration: none;
   }
@@ -85,9 +86,9 @@ section {
   border-radius: 10px;
   border: 1px solid #ccd6f6;
   color: rgb(204, 214, 246);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
   cursor: pointer;
-  &:hover{
+  &:hover {
     color: #0a192f;
     background-color: #ccd6f6;
     scale: 1.1;
@@ -98,7 +99,7 @@ section {
 // }
 // Animation
 #mask {
-  background-color: #0a192f;
+  background-color: #0e0e0e;
   width: 100%;
   height: 500px;
   position: absolute;
@@ -115,8 +116,8 @@ section {
   padding: 20px;
   margin-top: 250px;
   font-size: 50px;
-  color: #64ffda;
-  border: 1px solid #64ffda;
+  color: rgb(204, 214, 246);
+  border: 1px solid rgb(204, 214, 246);
   border-radius: 50%;
 }
 .visible {
@@ -142,6 +143,33 @@ section {
 }
 //-----------------------------------------
 
+#yourGym {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      color: rgb(204, 214, 246);
+      font-size: 1.9em;
+      font-weight: 100;
+      text-align: center;
+    }
+    h3 {
+      color: rgba(136, 146, 176, 0.733);
+      font-size: 1em;
+      text-align: center;
+    }
+  }
+  img{
+    width: 400px;
+  }
+}
+
+//-----------------------------------------
+
 #toDoApp {
   display: flex;
   justify-content: space-between;
@@ -155,16 +183,16 @@ section {
 #toDoShot1 {
   // border: 1px solid red;
   width: 400px;
-  height: 300px;
-  background-image: url(/img/124shots_so.png);
-  background-position: center;
-  background-size: cover;
+  // height: 300px;
+  // background-image: url(/img/toDoShotPhone1.png);
+  // background-position: center;
+  // background-size: cover;
 }
 #toDoShot2 {
   // border: 1px solid red;
   width: 400px;
   height: 250px;
-  background-image: url(/img/830shots_so.png);
+  background-image: url(/img/toDoShotPhone1.png);
   background-position: center;
   background-size: cover;
 }
@@ -221,15 +249,60 @@ section {
     }
   }
 }
+.btn1 {
+  margin: 80px 0;
+  display: flex;
+  justify-content: center;
+
+  a {
+    // width: 100px;
+    // background-color: rgb(204, 214, 246);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 214, 246);
+    color: rgb(204, 214, 246);
+    transition-duration: 0.2s;
+    &:hover {
+      scale: 1.2;
+      color: #0a192f;
+      background-color: #ccd6f6;
+    }
+  }
+}
 
 @media (min-width: 800px) {
+  #yourGym {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h2 {
+        color: rgb(204, 214, 246);
+        font-size: 1.9em;
+        font-weight: 100;
+        text-align: center;
+      }
+      h3 {
+        color: rgba(136, 146, 176, 0.733);
+        font-size: 1em;
+        text-align: center;
+      }
+    }
+    img{
+      width: 650px;
+    }
+  }
   #toDoShot1 {
     // border: 1px solid red;
     width: 650px;
-    height: 600px;
-    background-image: url(/img/124shots_so.png);
-    background-position: center;
-    background-size: cover;
+    // height: 600px;
+    // background-image: url(/img/toDoShotPhone1.png);
+    // background-position: center;
+    // background-size: cover;
   }
   #toDoShot2 {
     // border: 1px solid red;
